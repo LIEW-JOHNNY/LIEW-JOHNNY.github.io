@@ -1,18 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Graduation & Anniversary Sunflower Bouquets | Feed You With A Sunflower</title>
-  
-  <meta name="description" content="Cheerful sunflower bouquets for graduation and anniversaries. Brighten your day with positivity and productivity.">
-  <meta name="robots" content="index, follow">
-  <link rel="canonical" href="https://yourdomain.com/index.html">
 
-  <meta property="og:title" content="Graduation & Anniversary Sunflower Bouquets">
-  <meta property="og:description" content="Celebrate milestones with uplifting sunflower bouquets and productivity tools.">
-  <meta property="og:url" content="https://yourdomain.com/index.html">
+  <meta name="description" content="Feed You With A Sunflower offers cheerful graduation and anniversary bouquets with positivity and productivity tools.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://liew-johnny.github.io/">
+
+  <meta property="og:title" content="Graduation & Anniversary Sunflower Bouquets | Feed You With A Sunflower">
+  <meta property="og:description" content="">
+  <meta property="og:url" content="https://liew-johnny.github.io/">
 
   <!-- Bootstrap, Font Awesome, CSS -->
   <link rel="stylesheet" href="css/style.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='75' font-size='75'>&#127803;</text></svg>">
 </head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+        🌻 Feed You With A Sunflower
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="dashboard.html">Dashboard</a></li>
+          <li class="nav-item"><a class="nav-link" href="vision-board.html">Vision Board</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Intro Section -->
+  <section class="intro container my-5">
+    <div class="row align-items-center">
+      <!-- Image Column -->
+      <div class="col-md-5 text-center">
+        <img src="images/Sunflower.jpg" alt="A sunflower in bloom" class="img-fluid rounded shadow-sm intro-img">
+      </div>
+      <!-- Text Column -->
+      <div class="col-md-7">
+        <h1 class="mb-3 flag-mask">Hello, Welcome to Sunflower Valley 🌻</h1>
+        <p class="lead">
+          <strong>Feed You With A Sunflower</strong> is a cheerful productivity dashboard designed to brighten your day while keeping you organized. 
+          With smart tools for tasks, notes, and achievements, it helps you stay focused and celebrate progress. 
+          Start planning with positivity and let your goals bloom.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Reasons Section -->
+  <section class="reasons container my-5">
+    <h2 class="text-center mb-4">Why I Designed This?</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="reason-card text-center p-3 shadow-sm">
+          <div class="icon-circle"><i class="fa-regular fa-lightbulb"></i></div>
+          <h3>Motivation</h3>
+          <p>
+            This website was born from the idea that productivity should feel uplifting, not overwhelming. 
+            Just like a sunflower turns toward the sun, this dashboard helps you focus on growth and achievement.
+          </p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="reason-card text-center p-3 shadow-sm">
+          <div class="icon-circle"><i class="fa-regular fa-heart"></i></div>
+          <h3>Value</h3>
+          <p>
+            By combining calendars, notes, and a gallery of milestones, it offers both structure and motivation. 
+            Every feature is designed to make planning simple and rewarding.
+          </p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="reason-card text-center p-3 shadow-sm">
+          <div class="icon-circle"><i class="fa-regular fa-gem"></i></div>
+          <h3>Vision</h3>
+          <p>
+            Our vision is to feed your day with clarity, creativity, and confidence — so every goal feels like a sunflower in bloom.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-light text-center py-4 mt-5">
+    <p>&copy; <span id="year"></span> Feed You With A Sunflower. All rights reserved.</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
