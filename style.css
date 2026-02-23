@@ -93,12 +93,14 @@ h3 {
 .flag-mask {
     font-family: "Nunito Sans", sans-serif;
     display: inline-block;
-    font-size: var(--ft-32);
+
+    /* Responsive font size */
+    font-size: clamp(var(--ft-32), 5vw, var(--ft-64));
+
     font-weight: 1000;
     text-transform: uppercase;
     letter-spacing: 2px;
 
-    /* Sunflower-inspired gradient */
     background: linear-gradient(
         90deg,
         var(--highlight-yellow),
@@ -112,7 +114,6 @@ h3 {
     -webkit-text-fill-color: transparent;
     color: transparent;
 
-    /* Smooth wave animation */
     animation: maskwave 6s ease-in-out infinite;
 }
 
